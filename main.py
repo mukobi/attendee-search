@@ -18,7 +18,7 @@ class AttendeeSearch:
     THRESHOLD_COSINE_SCORE = 0.30  # search results with cosine score below this aren't considered
 
     USE_ANY_XLSX_FILE = True
-    ROW_OF_SPREADSHEET_CONTAINING_COLUMN_NAMES = 3
+    ROW_OF_SPREADSHEET_CONTAINING_COLUMN_NAMES = 2  # 3
     SPREAD_SHEET_PATH = "attendee_sheet.xlsx" # not used
 
     COLUMNS_TO_USE = ["How Others Can Help Me", "How I Can Help Others"]
